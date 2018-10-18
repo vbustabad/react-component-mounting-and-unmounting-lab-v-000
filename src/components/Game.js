@@ -20,7 +20,7 @@ class Game extends React.Component {
     this.interval = setInterval(???);
   }
   // TODO: create a componentDidMount() which will set the current time
-  
+
   setCurrentTime = () => {
     this.setState({ time: new Date(Date.now())});
   }
